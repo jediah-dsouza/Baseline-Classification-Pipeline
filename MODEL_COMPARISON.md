@@ -106,7 +106,11 @@ weighted avg       0.80      0.81      0.80      1409
 weighted avg       0.80      0.74      0.75      1409
 
 ```
+## Reproduce
 
+```bash
+python regression_baseline.py ames_cleaned.csv
+```
 ## Business interpretation
 
 The majority-class baseline is useful as a sanity check, but it does not identify churners: its churn recall is **0.0000** and its churn F1 is **0.0000**.
