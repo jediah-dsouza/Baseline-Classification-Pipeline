@@ -107,7 +107,7 @@ weighted avg       0.80      0.74      0.75      1409
 
 ```
 ## Reproduce
-```
+
 ```bash
 python classification_baseline.py "WA_Fn-UseC_-Telco-Customer-Churn.csv"
 ```
